@@ -3,16 +3,34 @@
   <title>11ty-hax11ty-blog</title>
   <link href="https://mayormaier.github.io/11ty-hax11ty-blog/atom.xml" rel="self" />
   <subtitle>project documentation</subtitle>
-  <updated>2022-02-25T21:12:47.837-00:00</updated>
+  <updated>2022-02-25T21:32:41.446-00:00</updated>
   <author>
       <name>mayormaier</name>
   </author>
   <id>https://mayormaier.github.io/11ty-hax11ty-blog/atom.xml</id>
   <entry>
+    <title>Welcome to MaierLand!</title>
+    <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/Welcome/</id>
+    <updated>2022-02-25T21:32:41.446-00:00</updated>
+    <published>2022-02-25T21:32:41.446-00:00</published>
+    <summary></summary>
+    <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/Welcome/"/>
+    <content type="html">
+      &lt;h2&gt;Big Test Time Baby&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Block Quote Action&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;List Action&lt;/li&gt;
+&lt;/ol&gt;
+
+    </content>
+  </entry>
+  <entry>
     <title>About</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/about/</id>
-    <updated>2022-02-25T21:12:47.837-00:00</updated>
-    <published>2022-02-25T21:12:47.837-00:00</published>
+    <updated>2022-02-25T21:32:41.446-00:00</updated>
+    <published>2022-02-25T21:32:41.446-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/about/"/>
     <content type="html">
@@ -29,8 +47,8 @@
   <entry>
     <title>Get involved!</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/contact/</id>
-    <updated>2022-02-25T21:12:47.837-00:00</updated>
-    <published>2022-02-25T21:12:47.837-00:00</published>
+    <updated>2022-02-25T21:32:41.446-00:00</updated>
+    <published>2022-02-25T21:32:41.446-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/contact/"/>
     <content type="html">
@@ -41,8 +59,8 @@
   <entry>
     <title>Community examples</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/Community/</id>
-    <updated>2022-02-25T21:12:47.837-00:00</updated>
-    <published>2022-02-25T21:12:47.837-00:00</published>
+    <updated>2022-02-25T21:32:41.446-00:00</updated>
+    <published>2022-02-25T21:32:41.446-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/Community/"/>
     <content type="html">
@@ -53,8 +71,8 @@
   <entry>
     <title>HAXTheWeb</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/HAXTeam/</id>
-    <updated>2022-02-25T21:12:47.837-00:00</updated>
-    <published>2022-02-25T21:12:47.837-00:00</published>
+    <updated>2022-02-25T21:32:41.446-00:00</updated>
+    <published>2022-02-25T21:32:41.446-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/HAXTeam/"/>
     <content type="html">
@@ -69,8 +87,8 @@
   <entry>
     <title>Examples</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/</id>
-    <updated>2022-02-25T21:12:47.837-00:00</updated>
-    <published>2022-02-25T21:12:47.837-00:00</published>
+    <updated>2022-02-25T21:32:41.446-00:00</updated>
+    <published>2022-02-25T21:32:41.446-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/"/>
     <content type="html">
@@ -81,8 +99,8 @@
   <entry>
     <title>Installation</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/install/</id>
-    <updated>2022-02-25T21:12:47.837-00:00</updated>
-    <published>2022-02-25T21:12:47.837-00:00</published>
+    <updated>2022-02-25T21:32:41.446-00:00</updated>
+    <published>2022-02-25T21:32:41.446-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/install/"/>
     <content type="html">
@@ -108,10 +126,34 @@
     </content>
   </entry>
   <entry>
+    <title>this is a post</title>
+    <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/post1/</id>
+    <updated>2022-02-25T21:32:41.446-00:00</updated>
+    <published>2022-02-25T21:32:41.446-00:00</published>
+    <summary></summary>
+    <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/post1/"/>
+    <content type="html">
+      &lt;h2&gt;not sure what this will be&lt;/h2&gt;
+
+    </content>
+  </entry>
+  <entry>
+    <title>another post</title>
+    <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/post2/</id>
+    <updated>2022-02-25T21:32:41.446-00:00</updated>
+    <published>2022-02-25T21:32:41.446-00:00</published>
+    <summary></summary>
+    <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/post2/"/>
+    <content type="html">
+      &lt;h2&gt;wow another post swag&lt;/h2&gt;
+
+    </content>
+  </entry>
+  <entry>
     <title>Roadmap</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/roadmap/</id>
-    <updated>2022-02-25T21:12:47.837-00:00</updated>
-    <published>2022-02-25T21:12:47.837-00:00</published>
+    <updated>2022-02-25T21:32:41.446-00:00</updated>
+    <published>2022-02-25T21:32:41.446-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/roadmap/"/>
     <content type="html">
@@ -136,8 +178,8 @@
   <entry>
     <title>Why this is better</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/why/</id>
-    <updated>2022-02-25T21:12:47.837-00:00</updated>
-    <published>2022-02-25T21:12:47.837-00:00</published>
+    <updated>2022-02-25T21:32:41.446-00:00</updated>
+    <published>2022-02-25T21:32:41.446-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/why/"/>
     <content type="html">
