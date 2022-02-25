@@ -5,9 +5,9 @@ module.exports = () => {
     // will most likley want to change designated
     // github organization / username
     // github.com/WHATEVER
-    var gitOrg = "elmsln";
+    var gitOrg = "mayormaier";
     // github.com/elmsln/WHATEVER - hax11ty here implies building against the repo itself to produce it's own docs :)
-    var gitProject = "hax11ty";
+    var gitProject = "11ty-hax11ty-blog";
     // if doing github builds, automatically set these to whatever the repo issuing the call is
     // the above is just for SOME default so things below publish correctly locally
     if (process.env.GITHUB_REPOSITORY) {
@@ -16,7 +16,7 @@ module.exports = () => {
         gitProject = parts[1];
     }
     // author name will be set by the github publishing agent based on who kicks it off
-    var authorName = "btopro";
+    var authorName = "mayormaier";
     var siteAuthorImage = "files/headshot511743.1799999904.jpg";
     // person kicking off the job gets author name by default
     if (process.env.GITHUB_ACTOR) {
@@ -86,7 +86,7 @@ module.exports = () => {
         // icon name if the theme uses one
         themeLogo: "lrn:network",
         // general theme color
-        themeColor: "green",
+        themeColor: "blue",
         // CC license, see https://creativecommons.org/licenses/ for a list
         siteLicense: "by-sa",
         // folder / machine name to represent your site
