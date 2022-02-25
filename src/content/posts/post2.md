@@ -1,5 +1,5 @@
 ---
-title: another post
+title: another post (2)
 order: 2
 ---
 
