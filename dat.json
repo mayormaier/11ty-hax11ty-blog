@@ -1,0 +1,15 @@
+{
+    "title": "11ty-hax11ty-blog",
+    "description": "project documentation",
+    "type": [
+        "website", "HAXcms"
+    ],
+    "links": {
+        "license": [
+            {
+                "href": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "title": "Creative Commons: Attribution Share a like"
+            }
+        ]
+    }
+}
