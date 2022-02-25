@@ -38,52 +38,56 @@
 'use strict';
 var precacheConfig = [
   [
-    "/11ty-hax11ty-blog/content/Welcome/",
-    "lgazoy0sODuzmQQO"
-  ],
-  [
     "/11ty-hax11ty-blog/content/about/",
-    "lgazoy0sODuzmQQO"
+    "MJgzky1Ukw0tgwMv"
   ],
   [
     "/11ty-hax11ty-blog/content/contact/",
-    "lgazoy0sODuzmQQO"
+    "MJgzky1Ukw0tgwMv"
+  ],
+  [
+    "/11ty-hax11ty-blog/content/Welcome/",
+    "MJgzky1Ukw0tgwMv"
   ],
   [
     "/11ty-hax11ty-blog/content/install/",
-    "lgazoy0sODuzmQQO"
+    "MJgzky1Ukw0tgwMv"
   ],
   [
     "/11ty-hax11ty-blog/content/roadmap/",
-    "lgazoy0sODuzmQQO"
+    "MJgzky1Ukw0tgwMv"
   ],
   [
     "/11ty-hax11ty-blog/content/why/",
-    "lgazoy0sODuzmQQO"
+    "MJgzky1Ukw0tgwMv"
   ],
   [
     "/11ty-hax11ty-blog/content/examples/Community/",
-    "lgazoy0sODuzmQQO"
+    "MJgzky1Ukw0tgwMv"
   ],
   [
     "/11ty-hax11ty-blog/content/examples/HAXTeam/",
-    "lgazoy0sODuzmQQO"
+    "MJgzky1Ukw0tgwMv"
   ],
   [
     "/11ty-hax11ty-blog/content/examples/",
-    "lgazoy0sODuzmQQO"
+    "MJgzky1Ukw0tgwMv"
+  ],
+  [
+    "/11ty-hax11ty-blog/content/posts/",
+    "MJgzky1Ukw0tgwMv"
   ],
   [
     "/11ty-hax11ty-blog/content/posts/post1/",
-    "lgazoy0sODuzmQQO"
+    "MJgzky1Ukw0tgwMv"
   ],
   [
     "/11ty-hax11ty-blog/content/posts/post2/",
-    "lgazoy0sODuzmQQO"
+    "MJgzky1Ukw0tgwMv"
   ],
   [
     "/11ty-hax11ty-blog/",
-    "lgazoy0sODuzmQQO"
+    "MJgzky1Ukw0tgwMv"
   ]
 ];
 var cacheName = 'sw-precache-v3--' + (self.registration ? self.registration.scope : '');

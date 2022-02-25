@@ -1,5 +1,5 @@
 {
-  "id": "#95be1715-59c4-2866-a46d-5b5c37b7d7d9",
+  "id": "#f7611d73-1d95-6fe0-87d7-c333bf8e199a",
   "title": "11ty-hax11ty-blog",
   "author": "mayormaier",
   "description": "project documentation",
@@ -13,8 +13,8 @@
     },
     "site": {
       "name": "11ty-hax11ty-blog",
-      "created": 1645824780485,
-      "updated": 1645824780485,
+      "created": 1645826825738,
+      "updated": 1645826825738,
       "git": {
         "autoPush": false,
         "branch": "master",
@@ -58,8 +58,8 @@
       "description": "HAXTheWeb",
       "parent": "--content-examples-index-md",
       "metadata": {
-        "created": 1645824761,
-        "updated": 1645824761,
+        "created": 1645826806,
+        "updated": 1645826806,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -73,30 +73,6 @@
       }
     },
     {
-      "id": "--content-Welcome-md",
-      "indent": 0,
-      "location": "./pages/Welcome.md",
-      "slug": "content/Welcome/",
-      "order": 1,
-      "title": "Welcome to MaierLand!",
-      "description": "Welcome to MaierLand!",
-      "parent": null,
-      "metadata": {
-        "created": 1645824761,
-        "updated": 1645824761,
-        "readtime": 1,
-        "contentDetails": {},
-        "files": [],
-        "haxcmsServiceWorker": true,
-        "tags": [
-          "content"
-        ],
-        "layout": "content.liquid",
-        "title": "Welcome to MaierLand!",
-        "order": 1
-      }
-    },
-    {
       "id": "--content-about-md",
       "indent": 0,
       "location": "./pages/about.md",
@@ -106,8 +82,8 @@
       "description": "About",
       "parent": null,
       "metadata": {
-        "created": 1645824761,
-        "updated": 1645824761,
+        "created": 1645826806,
+        "updated": 1645826806,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -121,6 +97,30 @@
       }
     },
     {
+      "id": "--content-Welcome-md",
+      "indent": 0,
+      "location": "./pages/Welcome.md",
+      "slug": "content/Welcome/",
+      "order": 1,
+      "title": "Welcome to MaierLand!",
+      "description": "Welcome to MaierLand!",
+      "parent": null,
+      "metadata": {
+        "created": 1645826806,
+        "updated": 1645826806,
+        "readtime": 1,
+        "contentDetails": {},
+        "files": [],
+        "haxcmsServiceWorker": true,
+        "tags": [
+          "content"
+        ],
+        "layout": "content.liquid",
+        "title": "Welcome to MaierLand!",
+        "order": 1
+      }
+    },
+    {
       "id": "--content-install-md",
       "indent": 0,
       "location": "./pages/install.md",
@@ -130,8 +130,8 @@
       "description": "Installation",
       "parent": null,
       "metadata": {
-        "created": 1645824761,
-        "updated": 1645824761,
+        "created": 1645826806,
+        "updated": 1645826806,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -154,8 +154,8 @@
       "description": "Community examples",
       "parent": "--content-examples-index-md",
       "metadata": {
-        "created": 1645824761,
-        "updated": 1645824761,
+        "created": 1645826806,
+        "updated": 1645826806,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -178,8 +178,8 @@
       "description": "Examples",
       "parent": null,
       "metadata": {
-        "created": 1645824761,
-        "updated": 1645824761,
+        "created": 1645826806,
+        "updated": 1645826806,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -193,17 +193,17 @@
       }
     },
     {
-      "id": "--content-posts-post1-md",
+      "id": "--content-posts-index-md",
       "indent": 0,
-      "location": "./pages/posts/post1.md",
-      "slug": "content/posts/post1/",
+      "location": "./pages/posts/index.md",
+      "slug": "content/posts/",
       "order": 1,
-      "title": "this is a post",
-      "description": "this is a post",
+      "title": "Blog Posts",
+      "description": "Blog Posts",
       "parent": null,
       "metadata": {
-        "created": 1645824761,
-        "updated": 1645824761,
+        "created": 1645826806,
+        "updated": 1645826806,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -212,7 +212,7 @@
           "content"
         ],
         "layout": "content.liquid",
-        "title": "this is a post",
+        "title": "Blog Posts",
         "order": 1
       }
     },
@@ -226,8 +226,8 @@
       "description": "Why this is better",
       "parent": null,
       "metadata": {
-        "created": 1645824761,
-        "updated": 1645824761,
+        "created": 1645826806,
+        "updated": 1645826806,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -246,12 +246,12 @@
       "location": "./pages/posts/post2.md",
       "slug": "content/posts/post2/",
       "order": 2,
-      "title": "another post",
-      "description": "another post",
-      "parent": null,
+      "title": "another post (2)",
+      "description": "another post (2)",
+      "parent": "--content-posts-index-md",
       "metadata": {
-        "created": 1645824761,
-        "updated": 1645824761,
+        "created": 1645826806,
+        "updated": 1645826806,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -260,7 +260,7 @@
           "content"
         ],
         "layout": "content.liquid",
-        "title": "another post",
+        "title": "another post (2)",
         "order": 2
       }
     },
@@ -274,8 +274,8 @@
       "description": "Roadmap",
       "parent": null,
       "metadata": {
-        "created": 1645824761,
-        "updated": 1645824761,
+        "created": 1645826806,
+        "updated": 1645826806,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -298,8 +298,8 @@
       "description": "Get involved!",
       "parent": null,
       "metadata": {
-        "created": 1645824761,
-        "updated": 1645824761,
+        "created": 1645826806,
+        "updated": 1645826806,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -310,6 +310,30 @@
         "layout": "content.liquid",
         "title": "Get involved!",
         "order": 4
+      }
+    },
+    {
+      "id": "--content-posts-post1-md",
+      "indent": 0,
+      "location": "./pages/posts/post1.md",
+      "slug": "content/posts/post1/",
+      "order": 10,
+      "title": "this is a post (1)",
+      "description": "this is a post (1)",
+      "parent": "--content-posts-index-md",
+      "metadata": {
+        "created": 1645826806,
+        "updated": 1645826806,
+        "readtime": 1,
+        "contentDetails": {},
+        "files": [],
+        "haxcmsServiceWorker": true,
+        "tags": [
+          "content"
+        ],
+        "layout": "content.liquid",
+        "title": "this is a post (1)",
+        "order": 0
       }
     }
   ]
