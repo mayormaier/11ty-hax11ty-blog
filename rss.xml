@@ -4,7 +4,7 @@
   <subtitle>project documentation</subtitle>
   <link href="https://mayormaier.github.io/11ty-hax11ty-blog/rss.xml" rel="self"/>
   <link href="https://mayormaier.github.io/11ty-hax11ty-blog"/>
-  <updated>2022-02-25T22:06:45.703-00:00</updated>
+  <updated>2022-02-26T19:51:16.022-00:00</updated>
   <id>https://mayormaier.github.io/11ty-hax11ty-blog</id>
   <author>
     <name>mayormaier</name>
@@ -14,7 +14,7 @@
   <entry>
     <title>Welcome to MaierLand!</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/Welcome/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/Welcome/</id>
     <content type="html">&lt;h2&gt;Big Test Time Baby&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -23,13 +23,14 @@
 &lt;ol&gt;
 &lt;li&gt;List Action&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;&lt;video-player source=&quot;https://www.youtube.com/watch?v=dQw4w9WgXcQ&quot;&gt;&lt;/video-player&gt;&lt;/p&gt;
 </content>
   </entry>
   
   <entry>
     <title>About</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/about/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/about/</id>
     <content type="html">&lt;p&gt;HAX11ty is a merger between HAX and 11ty. It uses these technologies in the following way:
 &lt;ul&gt;
@@ -44,7 +45,7 @@
   <entry>
     <title>Get involved!</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/contact/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/contact/</id>
     <content type="html">&lt;p&gt;The HAXTheWeb team hangs out on slack and would love to chat about all things 11ty, HAX11ty, HAX, and beyond. HAX11ty is one of many creations in the HAX universe and we&#39;d love to hear from those using it. &lt;a href=&quot;https://bit.ly/haxslack&quot;&gt;Join us on slack today!&lt;/a&gt; or follow us on twitter &lt;a href=&quot;https://twitter.com/haxtheweb&quot;&gt;@HAXTheWeb&lt;/a&gt;
 &lt;/p&gt;</content>
@@ -53,7 +54,7 @@
   <entry>
     <title>Community examples</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/Community/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/Community/</id>
     <content type="html">&lt;p&gt;Have an example site in production using HAX11ty? &lt;a href=&quot;https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/contact&quot;&gt;Contact us&lt;/a&gt; to let us know or &lt;a href=&quot;https://github.com/elmsln/hax11ty/tree/master/src/content&quot;&gt;add a PR via github&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -62,7 +63,7 @@
   <entry>
     <title>HAXTheWeb</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/HAXTeam/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/HAXTeam/</id>
     <content type="html">&lt;p&gt;We loves us some HAX11ty and dogfood it for many project sites. Here&#39;s a link farm:&lt;/p&gt;
 &lt;ul&gt;
@@ -75,7 +76,7 @@
   <entry>
     <title>Examples</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/examples/</id>
     <content type="html">&lt;p&gt;Have an example site in production using HAX11ty? We&#39;d love to highlight it and spread the good vibes! Contact us and make sure to click around to the other great examples of HAX11ty out there in the wild&lt;/p&gt;
 </content>
@@ -84,7 +85,7 @@
   <entry>
     <title>Installation</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/install/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/install/</id>
     <content type="html">&lt;h2&gt; Quick Installation Script &lt;/h2&gt;
 &lt;code-sample copy-clipboard-button=&quot;&quot;&gt;
@@ -110,7 +111,7 @@
   <entry>
     <title>Blog Posts</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/</id>
     <content type="html">&lt;h2&gt;A Wild Blog has Appeared&lt;/h2&gt;</content>
   </entry>
@@ -118,7 +119,7 @@
   <entry>
     <title>this is a post (1)</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/post1/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/post1/</id>
     <content type="html">&lt;h2&gt;not sure what this will be&lt;/h2&gt;
 </content>
@@ -127,7 +128,7 @@
   <entry>
     <title>another post (2)</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/post2/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/post2/</id>
     <content type="html">&lt;h2&gt;wow another post swag&lt;/h2&gt;
 </content>
@@ -136,7 +137,7 @@
   <entry>
     <title>Roadmap</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/roadmap/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/roadmap/</id>
     <content type="html">&lt;p&gt;The goal of HAX11ty is to combine the best of HAX / HAXcms with the best of 11ty. To that end we seek to produce the following workflow (things done first, followed by things needed):&lt;/p&gt;
 &lt;h3&gt;Working / exists currently&lt;/h3&gt;
@@ -159,7 +160,7 @@
   <entry>
     <title>Why this is better</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/why/"/>
-    <updated>2022-02-25T22:06:45.703-00:00</updated>
+    <updated>2022-02-26T19:51:16.022-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/why/</id>
     <content type="html">&lt;p&gt;&lt;ul&gt;
     &lt;li&gt;Power of &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;11ty&lt;/a&gt; for publishing static / high SEO&lt;/li&gt;
