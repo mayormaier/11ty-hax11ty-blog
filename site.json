@@ -1,5 +1,5 @@
 {
-  "id": "#80da60e9-97dd-6ce1-5e97-fcb578a0eb51",
+  "id": "#1ce4c12d-26cc-076e-177b-bf7aecedcc31",
   "title": "11ty-hax11ty-blog",
   "author": "mayormaier",
   "description": "project documentation",
@@ -13,8 +13,8 @@
     },
     "site": {
       "name": "11ty-hax11ty-blog",
-      "created": 1646014966535,
-      "updated": 1646014966535,
+      "created": 1646015414824,
+      "updated": 1646015414824,
       "git": {
         "autoPush": false,
         "branch": "master",
@@ -58,8 +58,8 @@
       "description": "Welcome to MaierLand!",
       "parent": null,
       "metadata": {
-        "created": 1646014947,
-        "updated": 1646014947,
+        "created": 1646015396,
+        "updated": 1646015396,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -73,30 +73,6 @@
       }
     },
     {
-      "id": "--content-install-md",
-      "indent": 0,
-      "location": "./pages/install.md",
-      "slug": "content/install/",
-      "order": 1,
-      "title": "Installation",
-      "description": "Installation",
-      "parent": null,
-      "metadata": {
-        "created": 1646014947,
-        "updated": 1646014947,
-        "readtime": 1,
-        "contentDetails": {},
-        "files": [],
-        "haxcmsServiceWorker": true,
-        "tags": [
-          "content"
-        ],
-        "layout": "content.liquid",
-        "title": "Installation",
-        "order": 1
-      }
-    },
-    {
       "id": "--content-posts-11ty-md",
       "indent": 0,
       "location": "./pages/posts/11ty.md",
@@ -106,8 +82,8 @@
       "description": "How to build powerful sites from scratch with 11ty",
       "parent": "--content-posts-index-md",
       "metadata": {
-        "created": 1646014947,
-        "updated": 1646014947,
+        "created": 1646015396,
+        "updated": 1646015396,
         "readtime": 7,
         "contentDetails": {},
         "files": [],
@@ -121,30 +97,6 @@
       }
     },
     {
-      "id": "--content-posts-index-md",
-      "indent": 0,
-      "location": "./pages/posts/index.md",
-      "slug": "content/posts/",
-      "order": 1,
-      "title": "Blog Posts",
-      "description": "Blog Posts",
-      "parent": null,
-      "metadata": {
-        "created": 1646014947,
-        "updated": 1646014947,
-        "readtime": 1,
-        "contentDetails": {},
-        "files": [],
-        "haxcmsServiceWorker": true,
-        "tags": [
-          "content"
-        ],
-        "layout": "content.liquid",
-        "title": "Blog Posts",
-        "order": 1
-      }
-    },
-    {
       "id": "--content-posts-frontend-apis-md",
       "indent": 0,
       "location": "./pages/posts/frontend-apis.md",
@@ -154,8 +106,8 @@
       "description": "Getting Started with open-wc and Web Components",
       "parent": "--content-posts-index-md",
       "metadata": {
-        "created": 1646014947,
-        "updated": 1646014947,
+        "created": 1646015396,
+        "updated": 1646015396,
         "readtime": 7,
         "contentDetails": {},
         "files": [],
@@ -178,8 +130,8 @@
       "description": "Getting Started with open-wc and Web Components",
       "parent": "--content-posts-index-md",
       "metadata": {
-        "created": 1646014947,
-        "updated": 1646014947,
+        "created": 1646015396,
+        "updated": 1646015396,
         "readtime": 7,
         "contentDetails": {},
         "files": [],
@@ -193,17 +145,17 @@
       }
     },
     {
-      "id": "--content-posts-post1-md",
+      "id": "--content-posts-index-md",
       "indent": 0,
-      "location": "./pages/posts/post1.md",
-      "slug": "content/posts/post1/",
-      "order": 5,
-      "title": "this is a post (1)",
-      "description": "this is a post (1)",
-      "parent": "--content-posts-index-md",
+      "location": "./pages/posts/index.md",
+      "slug": "content/posts/",
+      "order": 1,
+      "title": "Blog Posts",
+      "description": "Blog Posts",
+      "parent": null,
       "metadata": {
-        "created": 1646014947,
-        "updated": 1646014947,
+        "created": 1646015396,
+        "updated": 1646015396,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -212,8 +164,8 @@
           "content"
         ],
         "layout": "content.liquid",
-        "title": "this is a post (1)",
-        "order": 0
+        "title": "Blog Posts",
+        "order": 1
       }
     }
   ]

@@ -4,7 +4,7 @@
   <subtitle>project documentation</subtitle>
   <link href="https://mayormaier.github.io/11ty-hax11ty-blog/rss.xml" rel="self"/>
   <link href="https://mayormaier.github.io/11ty-hax11ty-blog"/>
-  <updated>2022-02-28T02:22:26.517-00:00</updated>
+  <updated>2022-02-28T02:29:56.190-00:00</updated>
   <id>https://mayormaier.github.io/11ty-hax11ty-blog</id>
   <author>
     <name>mayormaier</name>
@@ -14,42 +14,16 @@
   <entry>
     <title>Welcome to MaierLand!</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/Welcome/"/>
-    <updated>2022-02-28T02:22:26.517-00:00</updated>
+    <updated>2022-02-28T02:29:56.190-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/Welcome/</id>
-    <content type="html">&lt;p&gt;&lt;video-player source=&quot;https://www.youtube.com/watch?v=dQw4w9WgXcQ&quot;&gt;&lt;/video-player&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Installation</title>
-    <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/install/"/>
-    <updated>2022-02-28T02:22:26.517-00:00</updated>
-    <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/install/</id>
-    <content type="html">&lt;h2&gt; Quick Installation Script &lt;/h2&gt;
-&lt;code-sample copy-clipboard-button=&quot;&quot;&gt;
-  &lt;template&gt;
-    curl -fsSL https://raw.githubusercontent.com/elmsln/hax11ty/master/hax11tyme.sh -o hax11tyme.sh &amp;&amp; sh hax11tyme.sh
-  &lt;/template&gt;
-&lt;/code-sample&gt;
-&lt;h2&gt; Manual Installation &lt;/h2&gt;
-&lt;code-sample copy-clipboard-button=&quot;&quot;&gt;
-&lt;template&gt;
-  git clone https://github.com/elmsln/hax11ty.git
-  cd hax11ty
-  npm install
-  npm start
-&lt;/template&gt;
-&lt;/code-sample&gt;
-&lt;p&gt;This is the fastest way to get up and running. If you instead want to build new sites with this and push them back up to gh-pages rapidly, start by &lt;a href=&quot;https://github.com/elmsln/hax11ty/generate&quot;&gt;using this repo as a template&lt;/a&gt;. This will copy the github actions workflows as well so all you need to do is change our repo in the git clone above to yours in order to start on what will easily become a live website!&lt;/p&gt;
-&lt;h2&gt;DO IT!&lt;/h2&gt;
-&lt;p&gt;Youll have to take a copy of the repo tho! :)&lt;/p&gt;
-</content>
+    <content type="html">&lt;h2&gt;Welcome to my hax11ty blog!&lt;/h2&gt;
+&lt;video-player source=&quot;https://www.youtube.com/watch?v=dQw4w9WgXcQ&quot;&gt;&lt;/video-player&gt;</content>
   </entry>
   
   <entry>
     <title>How to build powerful sites from scratch with 11ty</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/11ty/"/>
-    <updated>2022-02-28T02:22:26.517-00:00</updated>
+    <updated>2022-02-28T02:29:56.190-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/11ty/</id>
     <content type="html">&lt;p&gt;If you&#39;ve been interested in the web space recently, you&#39;ve heard of static site generators like 11ty and Jekyll. These pieces of software take easily written markup such as markdown, nunjucks, and liquid and turn them into content that is ready for the web. Many developers want to author blog posts for their own site, and 11ty provides a way to do just that.&lt;/p&gt;
 &lt;p&gt;While on the surface it seems simple, theres a lot under the hood that makes 11ty a machine.&lt;/p&gt;
@@ -137,7 +111,7 @@ First lets provide some organization to our project.&lt;/p&gt;
   <entry>
     <title>Getting Started with open-wc and Web Components</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/frontend-apis/"/>
-    <updated>2022-02-28T02:22:26.517-00:00</updated>
+    <updated>2022-02-28T02:29:56.190-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/frontend-apis/</id>
     <content type="html">&lt;p&gt;&lt;code&gt;fetch()&lt;/code&gt; is an &lt;em&gt;asynchronous&lt;/em&gt; JavaScript function that allows client-side web applications to make HTTP Requests to a web endpoint. This is most commonly used to make API calls from the browser.&lt;/p&gt;
 &lt;p&gt;Asynchronous functions are known as &amp;quot;non-blocking&amp;quot;. Rather than taking up a processing thread while waiting for a return value, non-blocking functions allow other operations to execute in the program. This results in much more responsive applications.&lt;/p&gt;
@@ -174,24 +148,15 @@ First lets provide some organization to our project.&lt;/p&gt;
   <entry>
     <title>Blog Posts</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/"/>
-    <updated>2022-02-28T02:22:26.517-00:00</updated>
+    <updated>2022-02-28T02:29:56.190-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/</id>
     <content type="html">&lt;h2&gt;A Wild Blog has Appeared&lt;/h2&gt;</content>
   </entry>
   
   <entry>
-    <title>this is a post (1)</title>
-    <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/post1/"/>
-    <updated>2022-02-28T02:22:26.517-00:00</updated>
-    <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/post1/</id>
-    <content type="html">&lt;h2&gt;not sure what this will be&lt;/h2&gt;
-</content>
-  </entry>
-  
-  <entry>
     <title>Getting Started with open-wc and Web Components</title>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/web-components-intro/"/>
-    <updated>2022-02-28T02:22:26.517-00:00</updated>
+    <updated>2022-02-28T02:29:56.190-00:00</updated>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/web-components-intro/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;One month ago, I hadn&#39;t written a single line of JavaScript.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I knew that JavaScript was important, but I seemed to be scared away by the massive ecosystem. As I looked deeper into the powerful things that you can do with JavaScript, I knew I had to get my feet wet. If you&#39;re looking to get started with open-wc and Web Components, you&#39;re going to need to understand the fundamentals of plain vanilla JavaScript. That might sound daunting, but &lt;strong&gt;getting started with Javascript is easier than you think.&lt;/strong&gt; Today I&#39;ll show you why.&lt;/p&gt;
