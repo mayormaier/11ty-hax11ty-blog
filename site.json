@@ -1,5 +1,5 @@
 {
-  "id": "#384d2fc6-4475-d450-b8f2-7b1173e0c434",
+  "id": "#80da60e9-97dd-6ce1-5e97-fcb578a0eb51",
   "title": "11ty-hax11ty-blog",
   "author": "mayormaier",
   "description": "project documentation",
@@ -13,8 +13,8 @@
     },
     "site": {
       "name": "11ty-hax11ty-blog",
-      "created": 1645905095303,
-      "updated": 1645905095303,
+      "created": 1646014966535,
+      "updated": 1646014966535,
       "git": {
         "autoPush": false,
         "branch": "master",
@@ -49,30 +49,6 @@
   },
   "items": [
     {
-      "id": "--content-examples-HAXTeam-md",
-      "indent": 0,
-      "location": "./pages/examples/HAXTeam.md",
-      "slug": "content/examples/HAXTeam/",
-      "order": -100,
-      "title": "HAXTheWeb",
-      "description": "HAXTheWeb",
-      "parent": "--content-examples-index-md",
-      "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
-        "readtime": 1,
-        "contentDetails": {},
-        "files": [],
-        "haxcmsServiceWorker": true,
-        "tags": [
-          "content"
-        ],
-        "layout": "content.liquid",
-        "title": "HAXTheWeb",
-        "order": -100
-      }
-    },
-    {
       "id": "--content-Welcome-md",
       "indent": 0,
       "location": "./pages/Welcome.md",
@@ -82,8 +58,8 @@
       "description": "Welcome to MaierLand!",
       "parent": null,
       "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
+        "created": 1646014947,
+        "updated": 1646014947,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -97,30 +73,6 @@
       }
     },
     {
-      "id": "--content-about-md",
-      "indent": 0,
-      "location": "./pages/about.md",
-      "slug": "content/about/",
-      "order": 1,
-      "title": "About",
-      "description": "About",
-      "parent": null,
-      "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
-        "readtime": 1,
-        "contentDetails": {},
-        "files": [],
-        "haxcmsServiceWorker": true,
-        "tags": [
-          "content"
-        ],
-        "layout": "content.liquid",
-        "title": "About",
-        "order": 1
-      }
-    },
-    {
       "id": "--content-install-md",
       "indent": 0,
       "location": "./pages/install.md",
@@ -130,8 +82,8 @@
       "description": "Installation",
       "parent": null,
       "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
+        "created": 1646014947,
+        "updated": 1646014947,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -145,18 +97,18 @@
       }
     },
     {
-      "id": "--content-examples-Community-md",
+      "id": "--content-posts-11ty-md",
       "indent": 0,
-      "location": "./pages/examples/Community.md",
-      "slug": "content/examples/Community/",
+      "location": "./pages/posts/11ty.md",
+      "slug": "content/posts/11ty/",
       "order": 1,
-      "title": "Community examples",
-      "description": "Community examples",
-      "parent": "--content-examples-index-md",
+      "title": "How to build powerful sites from scratch with 11ty",
+      "description": "How to build powerful sites from scratch with 11ty",
+      "parent": "--content-posts-index-md",
       "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
-        "readtime": 1,
+        "created": 1646014947,
+        "updated": 1646014947,
+        "readtime": 7,
         "contentDetails": {},
         "files": [],
         "haxcmsServiceWorker": true,
@@ -164,7 +116,7 @@
           "content"
         ],
         "layout": "content.liquid",
-        "title": "Community examples",
+        "title": "How to build powerful sites from scratch with 11ty",
         "order": 1
       }
     },
@@ -178,8 +130,8 @@
       "description": "Blog Posts",
       "parent": null,
       "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
+        "created": 1646014947,
+        "updated": 1646014947,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -193,18 +145,18 @@
       }
     },
     {
-      "id": "--content-examples-index-md",
+      "id": "--content-posts-frontend-apis-md",
       "indent": 0,
-      "location": "./pages/examples/index.md",
-      "slug": "content/examples/",
+      "location": "./pages/posts/frontend-apis.md",
+      "slug": "content/posts/frontend-apis/",
       "order": 1,
-      "title": "Examples",
-      "description": "Examples",
-      "parent": null,
+      "title": "Getting Started with open-wc and Web Components",
+      "description": "Getting Started with open-wc and Web Components",
+      "parent": "--content-posts-index-md",
       "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
-        "readtime": 1,
+        "created": 1646014947,
+        "updated": 1646014947,
+        "readtime": 7,
         "contentDetails": {},
         "files": [],
         "haxcmsServiceWorker": true,
@@ -212,47 +164,23 @@
           "content"
         ],
         "layout": "content.liquid",
-        "title": "Examples",
+        "title": "Getting Started with open-wc and Web Components",
         "order": 1
       }
     },
     {
-      "id": "--content-why-md",
+      "id": "--content-posts-web-components-intro-md",
       "indent": 0,
-      "location": "./pages/why.md",
-      "slug": "content/why/",
-      "order": 2,
-      "title": "Why this is better",
-      "description": "Why this is better",
-      "parent": null,
-      "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
-        "readtime": 1,
-        "contentDetails": {},
-        "files": [],
-        "haxcmsServiceWorker": true,
-        "tags": [
-          "content"
-        ],
-        "layout": "content.liquid",
-        "title": "Why this is better",
-        "order": 2
-      }
-    },
-    {
-      "id": "--content-posts-post2-md",
-      "indent": 0,
-      "location": "./pages/posts/post2.md",
-      "slug": "content/posts/post2/",
-      "order": 2,
-      "title": "another post (2)",
-      "description": "another post (2)",
+      "location": "./pages/posts/web-components-intro.md",
+      "slug": "content/posts/web-components-intro/",
+      "order": 1,
+      "title": "Getting Started with open-wc and Web Components",
+      "description": "Getting Started with open-wc and Web Components",
       "parent": "--content-posts-index-md",
       "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
-        "readtime": 1,
+        "created": 1646014947,
+        "updated": 1646014947,
+        "readtime": 7,
         "contentDetails": {},
         "files": [],
         "haxcmsServiceWorker": true,
@@ -260,56 +188,8 @@
           "content"
         ],
         "layout": "content.liquid",
-        "title": "another post (2)",
-        "order": 2
-      }
-    },
-    {
-      "id": "--content-roadmap-md",
-      "indent": 0,
-      "location": "./pages/roadmap.md",
-      "slug": "content/roadmap/",
-      "order": 3,
-      "title": "Roadmap",
-      "description": "Roadmap",
-      "parent": null,
-      "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
-        "readtime": 1,
-        "contentDetails": {},
-        "files": [],
-        "haxcmsServiceWorker": true,
-        "tags": [
-          "content"
-        ],
-        "layout": "content.liquid",
-        "title": "Roadmap",
-        "order": 3
-      }
-    },
-    {
-      "id": "--content-contact-md",
-      "indent": 0,
-      "location": "./pages/contact.md",
-      "slug": "content/contact/",
-      "order": 4,
-      "title": "Get involved!",
-      "description": "Get involved!",
-      "parent": null,
-      "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
-        "readtime": 1,
-        "contentDetails": {},
-        "files": [],
-        "haxcmsServiceWorker": true,
-        "tags": [
-          "content"
-        ],
-        "layout": "content.liquid",
-        "title": "Get involved!",
-        "order": 4
+        "title": "Getting Started with open-wc and Web Components",
+        "order": 1
       }
     },
     {
@@ -317,13 +197,13 @@
       "indent": 0,
       "location": "./pages/posts/post1.md",
       "slug": "content/posts/post1/",
-      "order": 10,
+      "order": 5,
       "title": "this is a post (1)",
       "description": "this is a post (1)",
       "parent": "--content-posts-index-md",
       "metadata": {
-        "created": 1645905076,
-        "updated": 1645905076,
+        "created": 1646014947,
+        "updated": 1646014947,
         "readtime": 1,
         "contentDetails": {},
         "files": [],

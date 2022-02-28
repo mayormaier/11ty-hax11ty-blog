@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <base href="/11ty-hax11ty-blog/" />
+  <link rel="preconnect" crossorigin href="https://cdn.webcomponents.psu.edu" />
+  <link rel="preconnect" crossorigin href="https://fonts.googleapis.com" />
+  <link rel="preconnect" crossorigin href="https://cdnjs.cloudflare.com" />
+  <link rel="preconnect" crossorigin href="https://i.creativecommons.org" />
+  <link rel="preconnect" crossorigin href="https://licensebuttons.net" />
+  <link rel="preload" href="/11ty-hax11ty-blog/build.js" as="script" />
+  <link rel="preload" href="/11ty-hax11ty-blog/build-haxcms.js" as="script" />
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/wc-registry.json" as="fetch" crossorigin="anonymous" />
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/dynamic-import-registry/dynamic-import-registry.js" as="script" crossorigin="anonymous" />
+  <link rel="modulepreload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/dynamic-import-registry/dynamic-import-registry.js" />
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/wc-autoload/wc-autoload.js" as="script" crossorigin="anonymous" />
+  <link rel="modulepreload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/wc-autoload/wc-autoload.js" />
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/clean-two/clean-two.js" as="script" crossorigin="anonymous" />
+  <link rel="modulepreload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/clean-two/clean-two.js" />
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/web-animations-js/web-animations-next-lite.min.js" as="script" />  
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/base.css" as="style" />
+  <link rel="preload" href="/11ty-hax11ty-blog/theme/theme.css" as="style" />
+
+  <meta name="generator" content="HAX11ty" />
+  <link rel="manifest" href="/11ty-hax11ty-blog/manifest.json">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+  <title>11ty-hax11ty-blog</title>
+  <link rel="icon" href="/11ty-hax11ty-blog/assets/favicon.ico">
+  <meta name="theme-color" content="#55FF55">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="robots" content="index, follow">
+  <meta name="application-name" content="11ty-hax11ty-blog">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="11ty-hax11ty-blog">
+  <link rel="apple-touch-icon" sizes="48x48" href="/11ty-hax11ty-blog/assets/icon-48x48.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/11ty-hax11ty-blog/assets/icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="/11ty-hax11ty-blog/assets/icon-96x96.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/11ty-hax11ty-blog/assets/icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/11ty-hax11ty-blog/assets/icon-192x192.png">
+  <meta name="msapplication-TileImage" content="/11ty-hax11ty-blog/assets/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#55FF55">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="description" content="project documentation" />
+  <meta name="og:sitename" property="og:sitename" content="11ty-hax11ty-blog" />
+  <meta name="og:title" property="og:title" content="11ty-hax11ty-blog" />
+  <meta name="og:type" property="og:type" content="article" />
+  <meta name="og:url" property="og:url" content="https://mayormaier.github.io/11ty-hax11ty-blog" />
+  <meta name="og:description" property="og:description" content="project documentation" />
+  <meta name="og:image" property="og:image" content="assets/banner.jpg" />
+  <meta name="twitter:card" property="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" property="twitter:site" content="https://mayormaier.github.io/11ty-hax11ty-blog" />
+  <meta name="twitter:title" property="twitter:title" content="11ty-hax11ty-blog" />
+  <meta name="twitter:description" property="twitter:description" content="project documentation" />
+  <meta name="twitter:image" property="twitter:image" content="assets/banner.jpg" />
+  <meta rel="cc:license" href="https://creativecommons.org/licenses/by-sa/4.0/" content="License: Creative Commons: Attribution Share a like"/>
+  <meta name="twitter:creator" content="@" />
+  
+  <script>
+    if ('serviceWorker' in navigator) {
+      var sitePath = "/11ty-hax11ty-blog/";
+      // discover this path downstream of the root of the domain
+      var swScope = window.location.pathname.substring(0, window.location.pathname.indexOf(sitePath)) + sitePath;
+      if (swScope != document.head.getElementsByTagName('base')[0].href) {
+        document.head.getElementsByTagName('base')[0].href = swScope;
+      }
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js', {
+          scope: swScope
+        }).then(function (registration) {
+          registration.onupdatefound = function () {
+            // The updatefound event implies that registration.installing is set; see
+            // https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-container-updatefound-event
+            var installingWorker = registration.installing;
+            installingWorker.onstatechange = function () {
+              switch (installingWorker.state) {
+                case 'installed':
+                  if (!navigator.serviceWorker.controller) {
+                    window.dispatchEvent(new CustomEvent('simple-toast-show', {
+                      bubbles: true,
+                      cancelable: false,
+                      detail: {
+                        text: 'Pages you view are cached for offline use.',
+                        duration: 8000
+                      }
+                    }));
+                  }
+                break;
+                case 'redundant':
+                  throw Error('The installing service worker became redundant.');
+                break;
+              }
+            };
+          };
+        }).catch(function (e) {
+          console.warn('Service worker registration failed:', e);
+        });
+        // Check to see if the service worker controlling the page at initial load
+        // has become redundant, since this implies there's a new service worker with fresh content.
+        if (navigator.serviceWorker.controller) {
+          navigator.serviceWorker.controller.onstatechange = function(event) {
+            if (event.target.state === 'redundant') {
+              var b = document.createElement('mwc-button');
+              b.appendChild(document.createTextNode('Reload'));
+              b.raised = true;
+              b.addEventListener('click', function(e){ window.location.reload(true); });
+              window.dispatchEvent(new CustomEvent('simple-toast-show', {
+                bubbles: true,
+                cancelable: false,
+                detail: {
+                  text: 'A site update is available. Reload for latest content.',
+                  duration: 12000,
+                  slot: b,
+                  clone: false
+                }
+              }));
+            }
+          };
+        }
+      });
+    }
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 98vh;
+    }
+    .use-modern-browser a {
+      font-size: 22px;
+    }
+    .use-modern-browser {
+      font-size: 22px;
+      text-align: center;
+      width: 100%;
+    }
+  </style>
+  <style id="loadingstyles">
+    haxcms-site-builder {
+      display: block;
+    }
+    body[no-js] haxcms-site-builder {
+      display: none !important;
+    }
+    #loading {
+      background-color: white;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      transition: all linear 300ms;
+      -webkit-transition: all linear 300ms;
+      z-index: 99999999;
+    }
+
+    #loading.loaded {
+      animation: fade-out .7s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    #loading div.messaging {
+      color: rgba(255,255,255, 0.7);
+      font-family: Roboto;
+      left: 0px;
+      margin-top: -75px;
+      position: absolute;
+      right: 0px;
+      text-align: center;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    #loading div.messaging h1 {
+      color: white;
+      font-family: 'Open Sans', 'arial', 'serif';
+      font-size: 40px;
+      background-color: #55FF55;
+      transition: .4s ease-in-out all;
+    }
+    #loading img {
+      transition: .4s all ease-in-out;
+      width: 300px;
+      height: 300px;
+      margin-bottom: 50px;
+      border-radius: 50%;
+      border: 8px solid #55FF55;
+      box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
+      -moz-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
+	    -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
+      -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+    }
+    .progress-line,
+    .progress-line:before {
+      height: 8px;
+      width: 100%;
+      margin: auto;
+    }
+    .progress-line {
+      background-color: rgba(0,0,0, 0.05);
+      display: -webkit-flex;
+      display: flex;
+      width: 300px;
+    }
+    .progress-line:before {
+      background-color: #55FF55;
+      content: '';
+      animation: running-progress 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    @keyframes running-progress {
+      0% {
+        margin-left: 0px;
+        margin-right: 100%;
+      }
+      50% {
+        margin-left: 25%;
+        margin-right: 0%;
+      }
+      100% {
+        margin-left: 100%;
+        margin-right: 0;
+      }
+    }
+    @keyframes fade-out {
+      0% {
+        opacity: 1;
+      }
+      99% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+  <script id="loadingscript">
+    window.addEventListener('load', function(e) {
+      // give the web components a second to build
+      setTimeout(function() {
+        document.querySelector('#loading').classList.add('loaded');
+        setTimeout(function() {
+          document.querySelector('#loading').parentNode.removeChild(document.querySelector('#loading'));
+          document.querySelector('#loadingstyles').parentNode.removeChild(document.querySelector('#loadingstyles'));
+          document.querySelector('#loadingscript').parentNode.removeChild(document.querySelector('#loadingscript'));
+        }, 600);
+      }, 1000)
+    });
+  </script>
+</head>
+<body no-js vocab="http://schema.org/" prefix="oer:http://oerschema.org cc:http://creativecommons.org/ns dc:http://purl.org/dc/terms/">
+  <div id="loading">
+    <div class="messaging">
+      <img src="assets/images/photo-1497493292307-31c376b6e479.jpeg" alt="" loading="lazy" height="300px" width="300px" />
+      <div class="progress-line"></div>
+      <h1>Loading 11ty-hax11ty-blog</h1>
+    </div>
+  </div>
+  <haxcms-site-builder id="site" file="site.json">
+<p>If you've been interested in the web space recently, you've heard of static site generators like 11ty and Jekyll. These pieces of software take easily written markup such as markdown, nunjucks, and liquid and turn them into content that is ready for the web. Many developers want to author blog posts for their own site, and 11ty provides a way to do just that.</p>
+<p>While on the surface it seems simple, theres a lot under the hood that makes 11ty a machine.</p>
+<h2>Terms</h2>
+<p>Before starting, it's important to know terms that 11ty uses to describe their files. The names sound similar, but the differentiations are important.</p>
+<ul>
+<li><strong>template</strong> - a file that contains content (written in a language like markdown)</li>
+<li><strong>layout</strong> - pre-built wrappers for templates. Used to define a common structure for a set of templates/pages</li>
+<li><strong>front matter</strong> - key-value pairs at the top of a template that define specific variables that are used when rendering pages in 11ty</li>
+<li><strong>data file</strong> - purpose built files that define variables to be inherited by all templates in a defined directory.
+<ul>
+<li>Ex. in the directory <code>/posts</code>, <code>/posts/posts.json</code> would be the directory data file, and would define variables that all other template files <code>/posts/*</code> should inherit.</li>
+</ul>
+</li>
+</ul>
+<h2>Getting Started</h2>
+<p>11ty can be intimidating at first, especially if you are new to command line tooling. To start, I followed the great getting started guide at</p>
+<p>Here, I will demonstrate three ways to build an 11ty site, both using templates and from scratch.</p>
+<h2>Method 1: <a href="https://mayormaier.github.io/11ty-hello-horses/">From scratch</a></h2>
+<blockquote>
+<p>Shameless plug, I heavily leaned on the <a href="https://www.youtube.com/watch?v=PPZGdolA_ns&amp;t=7001s">great tutorial</a> by <a href="https://twitter.com/trostcodes?lang=en">Alex Trost</a> and <a href="https://twitter.com/BenDMyers">Ben Meyers</a> when completing this project.</p>
+</blockquote>
+<p>One nice thing about 11ty is that you can start out VERY basic, then build up in complexity.
+To start,</p>
+<ol>
+<li>initialize a new npm package <code>npm init</code> and install 11ty <code>npm install @11ty/eleventy</code></li>
+<li>create some template files <code>somethingCool.md</code> and throw them in the project root</li>
+<li>run <code>npx eleventy --serve</code> and watch your templates turn into HTML in the <code>_site</code> directory</li>
+</ol>
+<p>Now lets kick it up a notch.
+First lets provide some organization to our project.</p>
+<ol>
+<li>create an <code>.eleventy.js</code> file</li>
+<li>add <code>return { dir: { input: &quot;src&quot; } };</code> in a new <code>module.exports()</code> function</li>
+</ol>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> embeds <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"eleventy-plugin-embed-everything"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">eleventyConfig</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    eleventyConfig<span class="token punctuation">.</span><span class="token function">addPlugin</span><span class="token punctuation">(</span>embeds<span class="token punctuation">)</span><span class="token punctuation">;</span><br>    eleventyConfig<span class="token punctuation">.</span><span class="token function">addWatchTarget</span><span class="token punctuation">(</span><span class="token string">'_site/assets/*.css'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    eleventyConfig<span class="token punctuation">.</span><span class="token function">setBrowserSyncConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span><br>    <span class="token literal-property property">files</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'_site/assets/*.css'</span><span class="token punctuation">]</span><br>    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <br>    <span class="token keyword">return</span> <span class="token punctuation">{</span> <span class="token literal-property property">dir</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">input</span><span class="token operator">:</span> <span class="token string">"src"</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<p>An example <code>.eleventy.js</code> file. NOTE: this file contains additional plug in modules that you probably don't have installed yet. Only use this configuration if you have the defined modules installed.</p>
+<ol start="3">
+<li>create a new directory called <code>src</code></li>
+<li>move your precious templates to the new <code>src</code> directory</li>
+</ol>
+<p>Now, lets add some additional structure to our pages. When eleventy builds a page, it focuses on minimal HTML. No <code>&lt;head&gt;</code> information is included.</p>
+<ol>
+<li>in your <code>src</code> directory, add a <code>_includes</code> subdirectory. This is where you will store your layout files.</li>
+<li>create a new layout file. you can specify where the content should be inserted with ``</li>
+<li>specify this layout to be used in the front matter of a template using the <code>layout</code> key:</li>
+</ol>
+<pre class="language-markdown"><code class="language-markdown"><span class="token front-matter-block"><span class="token punctuation">---</span><br><span class="token front-matter yaml language-yaml">layout: layoutFilename</span><br><span class="token punctuation">---</span></span><br><br><span class="token list punctuation">-</span> cool<br><span class="token list punctuation">-</span> markdown</code></pre>
+<p>Lastly, lets add a plugin to this site. We will be installing the <a href="https://www.npmjs.com/package/eleventy-plugin-embed-everything">eleventy-embed-everything</a> plugin.</p>
+<ol>
+<li>install the plugin with <code>npm install eleventy-plugin-embed-everything --save</code></li>
+<li>add the plugin to the <code>.eleventy.js</code> file</li>
+</ol>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> embedEverything <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"eleventy-plugin-embed-everything"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">eleventyConfig</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  eleventyConfig<span class="token punctuation">.</span><span class="token function">addPlugin</span><span class="token punctuation">(</span>embedEverything<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
+<p>Now you can embed media into the page simply by dropping its url on to the page.</p>
+<p><a href="https://www.11ty.dev/docs/getting-started/">More information</a>
+<a href="https://github.com/mayormaier/11ty-hello-horses">Source repository</a></p>
+<h2>Method 2: <a href="https://mayormaier.github.io/11ty-base-blog/">Based on a template</a></h2>
+<p>The 11ty community has developed a plethora of templates that accomplish the initial configuration of 11ty quite well. Many of these sites contain a lot of useful tools and features, but on occasion this can bloat the final size of the project. The output files however remain flat and slender.</p>
+<p>The first step that I took when configuring this template was to modify the metadata of the site to match my details (name, url, email, etc.)</p>
+<p><img src="https://i.imgur.com/ww1RrOT.png" alt="Modified configuration items"></p>
+<p>Next, I modified the pathPrefix variable in the <code>.eleventy.js</code> file. This allows the site to be deployed to GitHub pages without explicitly defining the pathPrefix in page links (which would break the site in development).</p>
+<p>Lastly, I added my articles to the <code>/posts/</code> directory. Because much of the configuration has already been completed, it is pretty much plug and play for all of the articles. If additional subdirectories/categories are desired, more configuration is necessary.</p>
+<p>After inserting my articles, I specified some template metadata for each article. These vary slightly from the custom built template as different data variables are used, however they generally accomplish the same thing.</p>
+<p><img src="https://i.imgur.com/el03eOF.png" alt="Template data in the front matter"></p>
+<p><a href="https://eleventy-base-blog.netlify.app/">More Information</a>
+<a href="https://github.com/mayormaier/11ty-base-blog">Source Repository</a></p>
+<h2>Method 3: <a href="https://mayormaier.github.io/11ty-hax11ty-blog/">hax11ty</a></h2>
+<p>hax11ty combines the powerful library of web components found in HAXCMS with the simplicity of static sites. Just like 11ty, it takes in template files, and outputs them as HTML. Just like in Method 2, utilizing a pre-built 11ty configuration saves a lot of time when you need to get a site off the ground quickly. With a clean theme and the addition of web components, hax11ty takes static sites to the next level.</p>
+<p>For example, adding the <code>&lt;video-player&gt;</code> tag to our markdown yields a rendered video-player component on the page.:</p>
+<pre class="language-markdown"><code class="language-markdown"><span class="token list punctuation">-</span> things<br><span class="token list punctuation">-</span> and<br><span class="token list punctuation">-</span> stuff<br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>video-player</span> <span class="token attr-name">source</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://www.youtube.com/watch?v=dQw4w9WgXcQ<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>video-player</span><span class="token punctuation">></span></span></code></pre>
+<p><img src="https://i.imgur.com/oTX4MeQ.png" alt="Page with the rendered video-player component"></p>
+<h2>Data Structure</h2>
+<p>When using 11ty, there is a clear division between source content and static HTML site files. 11ty will locate the content for your site, written in any of the supported templating languages, then convert it into HTML and place it into the <code>_site</code> directory. Within the <code>_site</code> directory, there is an exact clone of the directory structure where all of the source files lived previously. This <code>_site</code> directory is key, because this is the directory that includes the HTML files needed to power a website. The <code>_site</code> directory can be zipped and uploaded to a website hosting platform.</p>
+<p><img src="https://i.imgur.com/cAx5e8J.png" alt="Template files (source)"></p>
+<p><img src="https://i.imgur.com/D4gpoxf.png" alt="Output files"></p>
+<p>These HTML files are generated through a process that 11ty calls <strong><a href="https://www.11ty.dev/docs/data-cascade/">the data cascade</a></strong> The data cascade dictates the order of priority for sources of layout and style data for the static HTML files. While extremely technical, the cascade basically begins by applying global data to the template files, and then overwrites these data files as it moves deeper into the directory. Data files with the same name and same directory as the templating files are given the highest priority.</p>
+<p>Lastly, the YAML front matter in each templating file is applied, which overwrites values further up in the data cascade. This is helpful for applying specific properties, such as a permalink, to individual files.</p>
+<p>When a website goes live, the folder structure that contains the markdown files transfers directly to the generated static HTML files. So, for example, if a particular markdown file is located at <code>/src/welcome.md</code> then the subsequent HTML file will appear at <code>_site/src/welcome/index.html</code>.</p>
+<p>One caveat to 11ty is that it does not automatically copy non-supported file types (anything other than files written in the supported templating languages) into the <code>_site</code> directory. In order to request that these files are copied into the <code>_site</code> directory, use the <code>--formats =</code> flag on the command line to specify certain file types.</p>
+<p><a href="https://elmsln.github.io/hax11ty/">More information</a>
+<a href="https://github.com/mayormaier/11ty-hax11ty-blog">Source Repo</a></p>
+</haxcms-site-builder>
+  <div id="haxcmsoutdatedfallback">
+    <div id="haxcmsoutdatedfallbacksuperold"> 
+      <iframe id="outline" style="width:18%;float:left;height:90vh;padding:0;margin:0;" name="outline" id="frame1"
+        src="/11ty-hax11ty-blog/legacy-outline.html" loading="lazy"></iframe>
+      <iframe id="content" style="width:80%;float:left;height:90vh;padding:0;margin:0;" name="content" id="frame2" src="" loading="lazy"></iframe>
+      <div class="use-modern-browser">Please use a modern browser to
+        view our website correctly. <a href="http://outdatedbrowser.com/">Update my browser now</a></div>
+    </div>
+  </div>
+  <script>window.HAXCMSContext="11ty";document.body.removeAttribute('no-js');window.__appCDN="https://cdn.webcomponents.psu.edu/cdn/";window.__appForceUpgrade=true;</script>
+  <script src="/11ty-hax11ty-blog/build.js"></script>
+  <script src="/11ty-hax11ty-blog/build-haxcms.js"></script>
+  <link rel="stylesheet" type="text/css" href="/11ty-hax11ty-blog/assets/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/base.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+</body>
+</html>

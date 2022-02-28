@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <base href="/11ty-hax11ty-blog/" />
+  <link rel="preconnect" crossorigin href="https://cdn.webcomponents.psu.edu" />
+  <link rel="preconnect" crossorigin href="https://fonts.googleapis.com" />
+  <link rel="preconnect" crossorigin href="https://cdnjs.cloudflare.com" />
+  <link rel="preconnect" crossorigin href="https://i.creativecommons.org" />
+  <link rel="preconnect" crossorigin href="https://licensebuttons.net" />
+  <link rel="preload" href="/11ty-hax11ty-blog/build.js" as="script" />
+  <link rel="preload" href="/11ty-hax11ty-blog/build-haxcms.js" as="script" />
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/wc-registry.json" as="fetch" crossorigin="anonymous" />
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/dynamic-import-registry/dynamic-import-registry.js" as="script" crossorigin="anonymous" />
+  <link rel="modulepreload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/dynamic-import-registry/dynamic-import-registry.js" />
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/wc-autoload/wc-autoload.js" as="script" crossorigin="anonymous" />
+  <link rel="modulepreload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/wc-autoload/wc-autoload.js" />
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/clean-two/clean-two.js" as="script" crossorigin="anonymous" />
+  <link rel="modulepreload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/clean-two/clean-two.js" />
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/web-animations-js/web-animations-next-lite.min.js" as="script" />  
+  <link rel="preload" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/base.css" as="style" />
+  <link rel="preload" href="/11ty-hax11ty-blog/theme/theme.css" as="style" />
+
+  <meta name="generator" content="HAX11ty" />
+  <link rel="manifest" href="/11ty-hax11ty-blog/manifest.json">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+  <title>11ty-hax11ty-blog</title>
+  <link rel="icon" href="/11ty-hax11ty-blog/assets/favicon.ico">
+  <meta name="theme-color" content="#55FF55">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="robots" content="index, follow">
+  <meta name="application-name" content="11ty-hax11ty-blog">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="11ty-hax11ty-blog">
+  <link rel="apple-touch-icon" sizes="48x48" href="/11ty-hax11ty-blog/assets/icon-48x48.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/11ty-hax11ty-blog/assets/icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="/11ty-hax11ty-blog/assets/icon-96x96.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/11ty-hax11ty-blog/assets/icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/11ty-hax11ty-blog/assets/icon-192x192.png">
+  <meta name="msapplication-TileImage" content="/11ty-hax11ty-blog/assets/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#55FF55">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="description" content="project documentation" />
+  <meta name="og:sitename" property="og:sitename" content="11ty-hax11ty-blog" />
+  <meta name="og:title" property="og:title" content="11ty-hax11ty-blog" />
+  <meta name="og:type" property="og:type" content="article" />
+  <meta name="og:url" property="og:url" content="https://mayormaier.github.io/11ty-hax11ty-blog" />
+  <meta name="og:description" property="og:description" content="project documentation" />
+  <meta name="og:image" property="og:image" content="assets/banner.jpg" />
+  <meta name="twitter:card" property="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" property="twitter:site" content="https://mayormaier.github.io/11ty-hax11ty-blog" />
+  <meta name="twitter:title" property="twitter:title" content="11ty-hax11ty-blog" />
+  <meta name="twitter:description" property="twitter:description" content="project documentation" />
+  <meta name="twitter:image" property="twitter:image" content="assets/banner.jpg" />
+  <meta rel="cc:license" href="https://creativecommons.org/licenses/by-sa/4.0/" content="License: Creative Commons: Attribution Share a like"/>
+  <meta name="twitter:creator" content="@" />
+  
+  <script>
+    if ('serviceWorker' in navigator) {
+      var sitePath = "/11ty-hax11ty-blog/";
+      // discover this path downstream of the root of the domain
+      var swScope = window.location.pathname.substring(0, window.location.pathname.indexOf(sitePath)) + sitePath;
+      if (swScope != document.head.getElementsByTagName('base')[0].href) {
+        document.head.getElementsByTagName('base')[0].href = swScope;
+      }
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js', {
+          scope: swScope
+        }).then(function (registration) {
+          registration.onupdatefound = function () {
+            // The updatefound event implies that registration.installing is set; see
+            // https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#service-worker-container-updatefound-event
+            var installingWorker = registration.installing;
+            installingWorker.onstatechange = function () {
+              switch (installingWorker.state) {
+                case 'installed':
+                  if (!navigator.serviceWorker.controller) {
+                    window.dispatchEvent(new CustomEvent('simple-toast-show', {
+                      bubbles: true,
+                      cancelable: false,
+                      detail: {
+                        text: 'Pages you view are cached for offline use.',
+                        duration: 8000
+                      }
+                    }));
+                  }
+                break;
+                case 'redundant':
+                  throw Error('The installing service worker became redundant.');
+                break;
+              }
+            };
+          };
+        }).catch(function (e) {
+          console.warn('Service worker registration failed:', e);
+        });
+        // Check to see if the service worker controlling the page at initial load
+        // has become redundant, since this implies there's a new service worker with fresh content.
+        if (navigator.serviceWorker.controller) {
+          navigator.serviceWorker.controller.onstatechange = function(event) {
+            if (event.target.state === 'redundant') {
+              var b = document.createElement('mwc-button');
+              b.appendChild(document.createTextNode('Reload'));
+              b.raised = true;
+              b.addEventListener('click', function(e){ window.location.reload(true); });
+              window.dispatchEvent(new CustomEvent('simple-toast-show', {
+                bubbles: true,
+                cancelable: false,
+                detail: {
+                  text: 'A site update is available. Reload for latest content.',
+                  duration: 12000,
+                  slot: b,
+                  clone: false
+                }
+              }));
+            }
+          };
+        }
+      });
+    }
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 98vh;
+    }
+    .use-modern-browser a {
+      font-size: 22px;
+    }
+    .use-modern-browser {
+      font-size: 22px;
+      text-align: center;
+      width: 100%;
+    }
+  </style>
+  <style id="loadingstyles">
+    haxcms-site-builder {
+      display: block;
+    }
+    body[no-js] haxcms-site-builder {
+      display: none !important;
+    }
+    #loading {
+      background-color: white;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      transition: all linear 300ms;
+      -webkit-transition: all linear 300ms;
+      z-index: 99999999;
+    }
+
+    #loading.loaded {
+      animation: fade-out .7s ease-in-out;
+      animation-fill-mode: forwards;
+    }
+    #loading div.messaging {
+      color: rgba(255,255,255, 0.7);
+      font-family: Roboto;
+      left: 0px;
+      margin-top: -75px;
+      position: absolute;
+      right: 0px;
+      text-align: center;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    #loading div.messaging h1 {
+      color: white;
+      font-family: 'Open Sans', 'arial', 'serif';
+      font-size: 40px;
+      background-color: #55FF55;
+      transition: .4s ease-in-out all;
+    }
+    #loading img {
+      transition: .4s all ease-in-out;
+      width: 300px;
+      height: 300px;
+      margin-bottom: 50px;
+      border-radius: 50%;
+      border: 8px solid #55FF55;
+      box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
+      -moz-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
+	    -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.45);
+      -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+    }
+    .progress-line,
+    .progress-line:before {
+      height: 8px;
+      width: 100%;
+      margin: auto;
+    }
+    .progress-line {
+      background-color: rgba(0,0,0, 0.05);
+      display: -webkit-flex;
+      display: flex;
+      width: 300px;
+    }
+    .progress-line:before {
+      background-color: #55FF55;
+      content: '';
+      animation: running-progress 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    @keyframes running-progress {
+      0% {
+        margin-left: 0px;
+        margin-right: 100%;
+      }
+      50% {
+        margin-left: 25%;
+        margin-right: 0%;
+      }
+      100% {
+        margin-left: 100%;
+        margin-right: 0;
+      }
+    }
+    @keyframes fade-out {
+      0% {
+        opacity: 1;
+      }
+      99% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+  <script id="loadingscript">
+    window.addEventListener('load', function(e) {
+      // give the web components a second to build
+      setTimeout(function() {
+        document.querySelector('#loading').classList.add('loaded');
+        setTimeout(function() {
+          document.querySelector('#loading').parentNode.removeChild(document.querySelector('#loading'));
+          document.querySelector('#loadingstyles').parentNode.removeChild(document.querySelector('#loadingstyles'));
+          document.querySelector('#loadingscript').parentNode.removeChild(document.querySelector('#loadingscript'));
+        }, 600);
+      }, 1000)
+    });
+  </script>
+</head>
+<body no-js vocab="http://schema.org/" prefix="oer:http://oerschema.org cc:http://creativecommons.org/ns dc:http://purl.org/dc/terms/">
+  <div id="loading">
+    <div class="messaging">
+      <img src="assets/images/photo-1497493292307-31c376b6e479.jpeg" alt="" loading="lazy" height="300px" width="300px" />
+      <div class="progress-line"></div>
+      <h1>Loading 11ty-hax11ty-blog</h1>
+    </div>
+  </div>
+  <haxcms-site-builder id="site" file="site.json">
+<p><code>fetch()</code> is an <em>asynchronous</em> JavaScript function that allows client-side web applications to make HTTP Requests to a web endpoint. This is most commonly used to make API calls from the browser.</p>
+<p>Asynchronous functions are known as &quot;non-blocking&quot;. Rather than taking up a processing thread while waiting for a return value, non-blocking functions allow other operations to execute in the program. This results in much more responsive applications.</p>
+<p>Fetch's asynchronous property is enables it to free the processing thread while waiting for an API response. This is a great way of handing API calls, as responses can vary in speed depending on the destination server and application.</p>
+<pre class="language-js"><code class="language-js"><span class="token function">fetch</span><span class="token punctuation">(</span><span class="token string">'http://example.com/movies.json'</span><span class="token punctuation">)</span><br>  <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">response</span> <span class="token operator">=></span> response<span class="token punctuation">.</span><span class="token function">json</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><br>  <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">data</span> <span class="token operator">=></span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p><em>the above example is courtesy of Mozilla</em></p>
+<p>The fetch method is relatively simple. In its most basic form, <code>fetch()</code> has one parameter, the URL of the HTTP endpoint. Other parameters can be added to send data to an endpoint (i.e., JSON for a HTTP PUT request). This enables developers to fully leverage API requests in their front end applications.</p>
+<p>In the example above, an HTTP GET request was made, which returns data from the server to the client. After the response returns successfully, the <code>.then()</code> functions parse the response as JSON, then print it to the console. However, console logging is not the only thing that can be accomplished in this function.</p>
+<p><code>.then()</code> clauses can also be used to pull data from the API response and set it as a variable. For example, in the application presented in this example, the responses from  <a href="https://www.freegeoip.app/json">freegeoip.app/json</a> are used to identify the location of a user at a specific IP address. The <code>latitude</code> <code>longitude</code> <code>city</code> and <code>region_name</code> fields are all variables that the API returns and are tracked by the application. Here's an example of the JSON data returned by the API:</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br><span class="token property">"ip"</span><span class="token operator">:</span> <span class="token string">"104.38.28.100"</span><span class="token punctuation">,</span><br><span class="token property">"country_code"</span><span class="token operator">:</span> <span class="token string">"US"</span><span class="token punctuation">,</span><br><span class="token property">"country_name"</span><span class="token operator">:</span> <span class="token string">"United States"</span><span class="token punctuation">,</span><br><span class="token property">"region_code"</span><span class="token operator">:</span> <span class="token string">"PA"</span><span class="token punctuation">,</span><br><span class="token property">"region_name"</span><span class="token operator">:</span> <span class="token string">"Pennsylvania"</span><span class="token punctuation">,</span><br><span class="token property">"city"</span><span class="token operator">:</span> <span class="token string">"University Park"</span><span class="token punctuation">,</span><br><span class="token property">"zip_code"</span><span class="token operator">:</span> <span class="token string">"16802"</span><span class="token punctuation">,</span><br><span class="token property">"time_zone"</span><span class="token operator">:</span> <span class="token string">"America/New_York"</span><span class="token punctuation">,</span><br><span class="token property">"latitude"</span><span class="token operator">:</span> <span class="token number">40</span><span class="token punctuation">,</span><br><span class="token property">"longitude"</span><span class="token operator">:</span> <span class="token number">-77</span><span class="token punctuation">,</span><br><span class="token property">"metro_code"</span><span class="token operator">:</span> <span class="token number">574</span><br><span class="token punctuation">}</span></code></pre>
+<p><em>This JSON blob is sample API response from the <a href="https://www.freegeoip.app/json">freegeoip.app/json</a> API.</em></p>
+<h2>Element Variables and Rendering</h2>
+<p>Variable assignment in the <code>then()</code> method calls enables stateful updating of the application. Each time that the API is called and returns data successfully, the instance variables are updated, and the DOM is re-painted with the new data. The render() function determines how the page will be displayed each time that the DOM is painted. Not all variables in the application achieve this behavior- only variables defined in the <code>static get properties()</code> method trigger the DOM to be re-painted. Note: you can also generate new variables based on the variables that are returned by an API call. For example, I set location equal to <code>$city, $region_name</code> which is used many other times in the application.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">static</span> <span class="token keyword">get</span> <span class="token function">properties</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token keyword">return</span> <span class="token punctuation">{</span><br>      <span class="token literal-property property">lat</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">type</span><span class="token operator">:</span> Number<span class="token punctuation">,</span> <span class="token literal-property property">reflect</span><span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span><br>      <span class="token literal-property property">long</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">type</span><span class="token operator">:</span> Number<span class="token punctuation">,</span> <span class="token literal-property property">reflect</span><span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span><br>      <span class="token literal-property property">city</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">type</span><span class="token operator">:</span> String<span class="token punctuation">,</span> <span class="token literal-property property">reflect</span><span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span><br>      <span class="token literal-property property">region</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">type</span><span class="token operator">:</span> String<span class="token punctuation">,</span> <span class="token literal-property property">reflect</span><span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span><br>      <span class="token literal-property property">location</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">type</span><span class="token operator">:</span> String<span class="token punctuation">,</span> <span class="token literal-property property">reflect</span><span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span><br>    <span class="token punctuation">}</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span></code></pre>
+<p><em>The properties defined in this method trigger the DOM to be re-painted</em></p>
+<p>Let's discuss the <code>&lt;location-from-ip&gt;</code> component in more depth. Firstly, the properties listed above populate the component with the data that it needs to render. The data relies on APIs to populate. The <code>getGEOIPData()</code> function includes all of the logic to obtain these data points.</p>
+<p>Firstly, a <code>UserIP</code> object instance is created to identify the IP address of the user. This relies on an API that returns the IP of the user making the request. This IP addres data is then fed into another API (<a href="https://www.freegeoip.app/">freegeoip.app</a>) that takes the IP address from the user and returns location data about that IP address. See the example API response above. After the response is retuned, the given variables are updated which triggers a repainting of the DOM. This update feeds those new variables into a number of services defined in the <code>render()</code> function:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> url <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">https://maps.google.com/maps?q=</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>lat<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">,</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>long<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span><br>    <span class="token keyword">return</span> html<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string"><br>      &lt;iframe title="Where you are" src="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>url<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">">&lt;/iframe><br>      &lt;br />&lt;a<br>        href="https://www.google.com/maps/@</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>lat<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">,</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>long<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">,15z"<br>        target="_blank"<br>        >Expand Map to </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>location<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&lt;/a<br>      ><br>      &lt;br />&lt;br /><br>      &lt;wikipedia-query search="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>location<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">">&lt;/wikipedia-query><br>      &lt;wikipedia-query search="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>city<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">">&lt;/wikipedia-query><br>      &lt;wikipedia-query search="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>region<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">">&lt;/wikipedia-query><br>    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span></code></pre>
+<ol>
+<li>The <code>lat</code> and <code>long</code> variables are inserted into an Google Maps embed link that populates an <code>&lt;iframe&gt;</code>.</li>
+<li>The <code>lat</code>, <code>long</code> and <code>location</code> variables are used to populate a hyperlink that opens the location in the full Google Maps site.</li>
+<li>The <code>&lt;wikipedia-query&gt;</code> web component is leveraged to provide articles about the location determined by the GEOIP API. The compnent relies on a <code>search</code> property that defines the wikipedia page to display. There are three <code>&lt;wikipedia-query&gt;</code> tags total. One uses the <code>location</code> property as the search string, and the other two use <code>city</code> and <code>region</code>.</li>
+</ol>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tqtzywaadnkkyumy56ri.png" alt="Image description">
+<em>The <code>&lt;location-from-ip&gt;</code> element, visually</em></p>
+<p>Ultimately, the use of APIs within web components can be achieved with ease and is a great way to add responsive elements to a static site.</p>
+<p>For more information about the API used in this application, see <a href="https://www.freegeoip.app/">freegeoip.app</a>, <a href="https://codepen.io/btopro/pen/yLNmVbw">wikipedia element</a>, <a href="https://ip-fast.com/api/ip/">IPFast IP Address API</a></p>
+<p>Check out the <a href="https://github.com/mayormaier/API-Project/blob/master/src/LocationFromIP.js">application repository here</a></p>
+<h4>Sources</h4>
+<p><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Concepts">General asynchronous programming concepts - MDN Web Docs</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch">Using Fetch - MDN Web Docs</a></p>
+</haxcms-site-builder>
+  <div id="haxcmsoutdatedfallback">
+    <div id="haxcmsoutdatedfallbacksuperold"> 
+      <iframe id="outline" style="width:18%;float:left;height:90vh;padding:0;margin:0;" name="outline" id="frame1"
+        src="/11ty-hax11ty-blog/legacy-outline.html" loading="lazy"></iframe>
+      <iframe id="content" style="width:80%;float:left;height:90vh;padding:0;margin:0;" name="content" id="frame2" src="" loading="lazy"></iframe>
+      <div class="use-modern-browser">Please use a modern browser to
+        view our website correctly. <a href="http://outdatedbrowser.com/">Update my browser now</a></div>
+    </div>
+  </div>
+  <script>window.HAXCMSContext="11ty";document.body.removeAttribute('no-js');window.__appCDN="https://cdn.webcomponents.psu.edu/cdn/";window.__appForceUpgrade=true;</script>
+  <script src="/11ty-hax11ty-blog/build.js"></script>
+  <script src="/11ty-hax11ty-blog/build-haxcms.js"></script>
+  <link rel="stylesheet" type="text/css" href="/11ty-hax11ty-blog/assets/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.webcomponents.psu.edu/cdn/build/es6/node_modules/@lrnwebcomponents/haxcms-elements/lib/base.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+</body>
+</html>
