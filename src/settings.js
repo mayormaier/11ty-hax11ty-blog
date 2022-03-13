@@ -50,6 +50,10 @@ module.exports = () => {
         // set this to 0 if you have a vanity URL
         segmentCount = 0;
     }
+    // configure for vercel
+    else if (process.env.deployEndpoint == 'vercel') {
+        url = `https://${gitProject}-${gitOrg}.vercel.app`
+    }
     // when building for production, we form a github based path
     else if (process.env.HAXCMS_GITHUB) {
         // change these if you have a custom domain
