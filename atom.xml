@@ -3,7 +3,7 @@
   <title>11ty-hax11ty-blog</title>
   <link href="https://mayormaier.github.io/11ty-hax11ty-blog/atom.xml" rel="self" />
   <subtitle>project documentation</subtitle>
-  <updated>2022-02-28T02:29:56.190-00:00</updated>
+  <updated>2022-03-13T23:44:13.671-00:00</updated>
   <author>
       <name>mayormaier</name>
   </author>
@@ -11,8 +11,8 @@
   <entry>
     <title>Welcome to MaierLand!</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/Welcome/</id>
-    <updated>2022-02-28T02:29:56.190-00:00</updated>
-    <published>2022-02-28T02:29:56.190-00:00</published>
+    <updated>2022-03-13T23:44:13.667-00:00</updated>
+    <published>2022-03-13T23:44:13.667-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/Welcome/"/>
     <content type="html">
@@ -23,8 +23,8 @@
   <entry>
     <title>How to build powerful sites from scratch with 11ty</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/11ty/</id>
-    <updated>2022-02-28T02:29:56.190-00:00</updated>
-    <published>2022-02-28T02:29:56.190-00:00</published>
+    <updated>2022-03-13T23:44:13.667-00:00</updated>
+    <published>2022-03-13T23:44:13.667-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/11ty/"/>
     <content type="html">
@@ -114,8 +114,8 @@ First lets provide some organization to our project.&lt;/p&gt;
   <entry>
     <title>Getting Started with open-wc and Web Components</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/frontend-apis/</id>
-    <updated>2022-02-28T02:29:56.190-00:00</updated>
-    <published>2022-02-28T02:29:56.190-00:00</published>
+    <updated>2022-03-13T23:44:13.671-00:00</updated>
+    <published>2022-03-13T23:44:13.671-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/frontend-apis/"/>
     <content type="html">
@@ -154,8 +154,8 @@ First lets provide some organization to our project.&lt;/p&gt;
   <entry>
     <title>Blog Posts</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/</id>
-    <updated>2022-02-28T02:29:56.190-00:00</updated>
-    <published>2022-02-28T02:29:56.190-00:00</published>
+    <updated>2022-03-13T23:44:13.671-00:00</updated>
+    <published>2022-03-13T23:44:13.671-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/"/>
     <content type="html">
@@ -165,8 +165,8 @@ First lets provide some organization to our project.&lt;/p&gt;
   <entry>
     <title>Getting Started with open-wc and Web Components</title>
     <id>https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/web-components-intro/</id>
-    <updated>2022-02-28T02:29:56.190-00:00</updated>
-    <published>2022-02-28T02:29:56.190-00:00</published>
+    <updated>2022-03-13T23:44:13.671-00:00</updated>
+    <published>2022-03-13T23:44:13.671-00:00</published>
     <summary></summary>
     <link href="https://mayormaier.github.io/11ty-hax11ty-blog/content/posts/web-components-intro/"/>
     <content type="html">

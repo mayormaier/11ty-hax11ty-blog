@@ -1,5 +1,5 @@
 {
-  "id": "#1ce4c12d-26cc-076e-177b-bf7aecedcc31",
+  "id": "#6efb172c-e90e-cb13-71bc-78573535f13d",
   "title": "11ty-hax11ty-blog",
   "author": "mayormaier",
   "description": "project documentation",
@@ -13,8 +13,8 @@
     },
     "site": {
       "name": "11ty-hax11ty-blog",
-      "created": 1646015414824,
-      "updated": 1646015414824,
+      "created": 1647215076024,
+      "updated": 1647215076024,
       "git": {
         "autoPush": false,
         "branch": "master",
@@ -58,8 +58,8 @@
       "description": "Welcome to MaierLand!",
       "parent": null,
       "metadata": {
-        "created": 1646015396,
-        "updated": 1646015396,
+        "created": 1647215054,
+        "updated": 1647215054,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -82,8 +82,8 @@
       "description": "How to build powerful sites from scratch with 11ty",
       "parent": "--content-posts-index-md",
       "metadata": {
-        "created": 1646015396,
-        "updated": 1646015396,
+        "created": 1647215054,
+        "updated": 1647215054,
         "readtime": 7,
         "contentDetails": {},
         "files": [],
@@ -106,32 +106,8 @@
       "description": "Getting Started with open-wc and Web Components",
       "parent": "--content-posts-index-md",
       "metadata": {
-        "created": 1646015396,
-        "updated": 1646015396,
-        "readtime": 7,
-        "contentDetails": {},
-        "files": [],
-        "haxcmsServiceWorker": true,
-        "tags": [
-          "content"
-        ],
-        "layout": "content.liquid",
-        "title": "Getting Started with open-wc and Web Components",
-        "order": 1
-      }
-    },
-    {
-      "id": "--content-posts-web-components-intro-md",
-      "indent": 0,
-      "location": "./pages/posts/web-components-intro.md",
-      "slug": "content/posts/web-components-intro/",
-      "order": 1,
-      "title": "Getting Started with open-wc and Web Components",
-      "description": "Getting Started with open-wc and Web Components",
-      "parent": "--content-posts-index-md",
-      "metadata": {
-        "created": 1646015396,
-        "updated": 1646015396,
+        "created": 1647215054,
+        "updated": 1647215054,
         "readtime": 7,
         "contentDetails": {},
         "files": [],
@@ -154,8 +130,8 @@
       "description": "Blog Posts",
       "parent": null,
       "metadata": {
-        "created": 1646015396,
-        "updated": 1646015396,
+        "created": 1647215054,
+        "updated": 1647215054,
         "readtime": 1,
         "contentDetails": {},
         "files": [],
@@ -165,6 +141,30 @@
         ],
         "layout": "content.liquid",
         "title": "Blog Posts",
+        "order": 1
+      }
+    },
+    {
+      "id": "--content-posts-web-components-intro-md",
+      "indent": 0,
+      "location": "./pages/posts/web-components-intro.md",
+      "slug": "content/posts/web-components-intro/",
+      "order": 1,
+      "title": "Getting Started with open-wc and Web Components",
+      "description": "Getting Started with open-wc and Web Components",
+      "parent": "--content-posts-index-md",
+      "metadata": {
+        "created": 1647215054,
+        "updated": 1647215054,
+        "readtime": 7,
+        "contentDetails": {},
+        "files": [],
+        "haxcmsServiceWorker": true,
+        "tags": [
+          "content"
+        ],
+        "layout": "content.liquid",
+        "title": "Getting Started with open-wc and Web Components",
         "order": 1
       }
     }
